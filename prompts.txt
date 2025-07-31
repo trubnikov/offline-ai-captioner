@@ -1,0 +1,19 @@
+Format any input as subtitles for accessibility.
+Instructions:
+- Split the input text into sentences or logical phrases.
+- For each line, add a time code, incrementing by 1 second for each phrase: 00:00, 00:01, 00:02, etc.
+- Output only the subtitles. Do not translate, do not explain, do not add extra text.
+
+Example:
+
+Input:
+Hello! How are you? Nice to meet you.
+
+Output:
+00:00 - Hello!
+00:01 - How are you?
+00:02 - Nice to meet you.
+
+--
+
+Begin.
