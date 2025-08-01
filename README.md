@@ -45,21 +45,13 @@ Begin.
 ## Limitations & Future Improvements
 
 **Limitations**
-	• Subtitle timing resets:
-Each message or phrase starts timecodes from 00:00. This means time does not accumulate across the whole conversation. For most offline and accessibility use cases, this is sufficient, but for real-time video or long dialogue, cumulative timing may be useful.
-	• No true audio synchronization:
-The subtitles are generated from text or dictation input. Automatic detection of exact speech timing and pauses is not implemented (but can be added with tools like Whisper or integrated macOS transcription).
-	• Manual splitting:
-For best results, each phrase should be sent as a separate input. Full text paragraphs may result in less precise subtitle splitting.
+- Subtitle timing resets: Each message or phrase starts timecodes from 00:00. This means time does not accumulate across the whole conversation. For most offline and accessibility use cases, this is sufficient, but for real-time video or long dialogue, cumulative timing may be useful.
+- No true audio synchronization: The subtitles are generated from text or dictation input. Automatic detection of exact speech timing and pauses is not implemented (but can be added with tools like Whisper or integrated macOS transcription).
+- Manual splitting: For best results, each phrase should be sent as a separate input. Full text paragraphs may result in less precise subtitle splitting.
 
 **Future Improvements & Extensions**
-	• Multi-language support:
-Add an optional translation feature (e.g., English ↔ Russian or any other target language), allowing real-time subtitles for multilingual meetings.
-	• SRT/VTT export:
-Allow exporting generated subtitles to popular formats like .srt or .vtt for direct use in video editing and publishing.
-	• Automatic time alignment:
-Integrate with speech-to-text models (like Whisper or built-in macOS tools) to provide accurate subtitle timing and phrase detection.
-	• Speaker identification:
-Optionally label subtitles with speaker names or roles for group conversations.
-	• Batch processing:
-Enable processing of full recorded meetings, podcasts, or lectures as a single file.
+- Multi-language support: Add an optional translation feature (e.g., English ↔ Russian or any other target language), allowing real-time subtitles for multilingual meetings.
+- SRT/VTT export: Allow exporting generated subtitles to popular formats like .srt or .vtt for direct use in video editing and publishing.
+- Automatic time alignment: Integrate with speech-to-text models (like Whisper or built-in macOS tools) to provide accurate subtitle timing and phrase detection.
+- Speaker identification: Optionally label subtitles with speaker names or roles for group conversations.
+- Batch processing: Enable processing of full recorded meetings, podcasts, or lectures as a single file.
