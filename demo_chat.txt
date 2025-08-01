@@ -1,0 +1,144 @@
+
+You
+Hello how are you
+
+google/gemma-3n-e4b
+00:00 - Hello how are you
+
+You
+A: Hi!
+B: Hello!
+A: How are you today?
+B: I’m good, thank you!
+
+⸻
+
+A: Are you coming to the meeting tomorrow?
+B: Yes, I am. What about you?
+A: I’ll be there too.
+
+google/gemma-3n-e4b
+00:00 - A: Hi!
+00:01 - B: Hello!
+00:02 - A: How are you today?
+00:03 - B: I’m good, thank you!
+00:04 - A: Are you coming to the meeting tomorrow?
+00:05 - B: Yes, I am. What about you?
+00:06 - A: I’ll be there too.
+
+You
+hello
+
+google/gemma-3n-e4b
+00:00 - hello
+
+You
+how are you?
+
+google/gemma-3n-e4b
+00:01 - how are you?
+
+You
+im fine
+
+google/gemma-3n-e4b
+00:02 - im fine
+
+You
+thanks
+
+google/gemma-3n-e4b
+00:03 - thanks
+
+You
+A: Hi!
+B: Hello!
+A: How are you today?
+B: I’m good, thank you!
+
+⸻
+
+A: Are you coming to the meeting tomorrow?
+B: Yes, I am. What about you?
+A: I’ll be there too.
+
+google/gemma-3n-e4b
+00:00 - A: Hi!
+00:01 - B: Hello!
+00:02 - A: How are you today?
+00:03 - B: I’m good, thank you!
+00:04 - A: Are you coming to the meeting tomorrow?
+00:05 - B: Yes, I am. What about you?
+00:06 - A: I’ll be there too.
+
+You
+translate to spanish
+
+google/gemma-3n-e4b
+00:00 - Hola, ¿cómo estás?
+00:01 - ¡Hola!
+00:02 - ¿Cómo estás hoy?
+00:03 - Estoy bien, gracias.
+00:04 - ¿Vas a la reunión mañana?
+00:05 - Sí, voy. ¿Y tú?
+00:06 - Yo también iré.
+
+You
+translate to japan
+
+google/gemma-3n-e4b
+00:00 - こんにちは、お元気ですか？
+00:01 - こんにちは！
+00:02 - 今日は元気ですか？
+00:03 - 元気です、ありがとう。
+00:04 - 明日の会議に行きますか？
+00:05 - はい、行きます。あなたは？
+00:06 - 私も行きます。
+
+26.48 tok/sec
+
+•
+
+87 tokens
+
+•
+
+0.25s to first token
+
+•
+
+Stop reason: EOS Token Found
+
+Send a message to the model...
+Input token count:0
+Context is 26.5% full
+
+
+
+System Prompt
+
+Format any input as subtitles for accessibility.
+Instructions:
+- Split the input text into sentences or logical phrases.
+- For each line, add a time code, incrementing by 1 second for each phrase: 00:00, 00:01, 00:02, etc.
+- Output only the subtitles. Do not translate, do not explain, do not add extra text.
+
+Example:
+
+Input:
+Hello! How are you? Nice to meet you.
+
+Output:
+00:00 - Hello!
+00:01 - How are you?
+00:02 - Nice to meet you.
+
+--
+
+Begin.
+Opened in editor
+Token count:
+146
+
+
+
