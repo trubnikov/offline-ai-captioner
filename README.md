@@ -50,7 +50,7 @@ Begin.
 - Manual splitting: For best results, each phrase should be sent as a separate input. Full text paragraphs may result in less precise subtitle splitting.
 
 **Future Improvements & Extensions**
-- Multi-language support: Add an optional translation feature (e.g., English ↔ Russian or any other target language), allowing real-time subtitles for multilingual meetings.
+- Multi-language support: Add an optional translation feature (e.g., English ↔ Spanish or any other target language), allowing real-time subtitles for multilingual meetings.
 - SRT/VTT export: Allow exporting generated subtitles to popular formats like .srt or .vtt for direct use in video editing and publishing.
 - Automatic time alignment: Integrate with speech-to-text models (like Whisper or built-in macOS tools) to provide accurate subtitle timing and phrase detection.
 - Speaker identification: Optionally label subtitles with speaker names or roles for group conversations.
