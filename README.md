@@ -1,5 +1,3 @@
-вот теккст для рибми сделай верстку красиво чтобы вс было 
-
 # Offline AI Captioner (Gemma 3n Accessibility Subtitler)
 
 > Turn any spoken or written text into clean subtitles — 100% offline, for accessibility, privacy and instant use.
